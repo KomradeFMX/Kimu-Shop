@@ -1,0 +1,34 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "name": "Rey Chikita",
+        "description": "Una Rey Chikita con choco ñam ñam.",
+        "image": "/images/reichikita.webp"
+      },
+      {
+        "id": 2,
+        "name": "Rey Chikita",
+        "description": "Una Rey Chikita con choco ñam ñam.",
+        "image": "/images/reichikita.webp"
+      },
+      {
+        "id": 3,
+        "name": "Rey Chikita",
+        "description": "Una Rey Chikita con choco ñam ñam.",
+        "image": "/images/reichikita.webp"
+      },
+      {
+        "id": 4,
+        "name": "Rey Chikita",
+        "description": "Una Rey Chikita con choco ñam ñam.",
+        "image": "/images/reichikita.webp"
+      },
+      {
+        "id": 5,
+        "name": "Rey Chikita",
+        "description": "Una Rey Chikita con choco ñam ñam.",
+        "image": "/images/reichikita.webp"
+      }
+    ]
+  }
