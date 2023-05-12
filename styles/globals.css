@@ -1,0 +1,78 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+:root {
+  --main-font: 'Bruno Ace', cursive;
+  --secondary-font: 'Comfortaa', cursive;
+  --accent-color: #c3aaf4;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: var(--main-font);
+  font-size: 3rem;
+}
+
+h2,
+h3 {
+  font-family: var(--secondary-font);
+}
+
+* {
+  box-sizing: border-box;
+  transition: .2s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+
+
+/* Scroll Things */
+.scrollHidden {
+  position: relative;
+
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(-100%);
+  transition: all 1s;
+}
+.scrollShowed {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateY(0);
+}
