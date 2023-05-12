@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Walpapers",
+      "image": "/images/acRestaurant.png",
+      "website": "/wallpapers"
+    },
+    {
+      "id": 2,
+      "name": "Characters",
+      "image": "/images/rosie.png",
+      "website": "/characters"
+    },
+    {
+      "id": 3,
+      "name": "Components",
+      "image": "/images/pcparts.jpg",
+      "website": "/components"
+    }
+  ]
+}
