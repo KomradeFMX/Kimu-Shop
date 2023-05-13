@@ -10,18 +10,6 @@ import SideMenu from '../components/SideMenu.jsx';
 import category from '../styles/category.module.css';
 
 
-export const getStaticProps = async () => {
-  const productsData = await import('../database/wallpapers.json');
-
-  const product = productsData.items;
-  return {
-    props: {
-      product
-    }
-  };
-};
-
-
 export default function Home({ categories }) {
   const [isSideMenuOpened, setIsSideMenuOpened] = useState(false);
 
